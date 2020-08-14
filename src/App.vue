@@ -17,7 +17,6 @@ export default {
   font-family: "Axiforma", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000000;
   background-color: #eaf7ff;
 }
 </style>
