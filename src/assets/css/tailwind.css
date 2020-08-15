@@ -4,3 +4,13 @@
 
 @tailwind utilities;
 
+.bgPrimaryButton {
+  background-color: #274fed;
+}
+.text-white {
+  color: #ffffff;
+}
+
+.text-primary {
+  color: #274fed;
+}

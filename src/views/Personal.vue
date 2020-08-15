@@ -101,9 +101,9 @@
         <!-- usecase list-->
         <div class="my-0 md:my-20">
           <div
-            class="grid md:grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:my-8"
+            class="grid md:grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:my-8 text-blue-300 xl:gap-10"
           >
-            <div class="mr-24 mb-10">
+            <div class="xl:mr-0 mr-24 mb-10">
               <h3
                 class=" not-italic font-bold text-primary leading-6 capitalize"
               >
@@ -116,7 +116,7 @@
                 chart.
               </p>
             </div>
-            <div class="mr-24 mb-10">
+            <div class="xl:mr-0 mr-24 mb-10">
               <h3
                 class=" not-italic font-bold text-primary leading-6 capitalize"
               >
@@ -129,7 +129,7 @@
                 chart.
               </p>
             </div>
-            <div class="mr-24 mb-10">
+            <div class="xl:mr-0 mr-24 mb-10">
               <h3
                 class=" not-italic font-bold text-primary leading- capitalize"
               >
@@ -144,9 +144,9 @@
             </div>
           </div>
           <div
-            class="grid md:grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:my-8"
+            class="grid md:grid-cols-3 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 md:my-8 xl:gap-10"
           >
-            <div class="mr-24 mb-10">
+            <div class="xl:mr-0 mr-24 mb-10">
               <h3
                 class=" not-italic font-bold text-primary leading-6 capitalize"
               >
@@ -159,7 +159,7 @@
                 chart.
               </p>
             </div>
-            <div class="mr-24 mb-10">
+            <div class="xl:mr-0 mr-24 mb-10">
               <h3
                 class=" not-italic font-bold text-primary leading-6 capitalize"
               >
@@ -172,7 +172,7 @@
                 chart.
               </p>
             </div>
-            <div class="mr-24 mb-10">
+            <div class="xl:mr-0 mr-24 mb-10">
               <h3
                 class=" not-italic font-bold text-primary leading- capitalize"
               >
@@ -479,13 +479,13 @@
         <div class="w-full text-center py-12">
           <span>
             <button
-              class="xl:mx-6 md:mx-6 mb-6 bg-primary hover:bg-blue-800 text-white font-bold hover:text-white px-16 py-4 border border-blue-500 hover:border-transparent rounded-sm"
+              class="xl:mx-6 md:mx-6 mb-6 bgPrimaryButton text-white font-bold hover:text-white px-16 py-4 border border-blue-500 hover:border-transparent rounded-sm"
               type="submit"
             >
               Get a Card
             </button>
             <button
-              class="xl:mx-6 md:mx-6 mb-6  bg-transparent hover:bg-primary  hover:font-semibold text-white font-thin px-16 py-4 border border-black hover:border-transparent rounded-sm"
+              class="xl:mx-6 md:mx-6 mb-6  bg-transparent text-black  hover:font-semibold font-thin px-16 py-4 border border-black hover:border-black rounded-sm"
               type="submit"
             >
               Contact Us
@@ -544,10 +544,11 @@ sup {
     top: -1rem;
   }
 }
-span > button:nth-child(1) {
-  background-color: rgba(39, 79, 237, var(--bg-opacity));
-  color: white;
-}
+
+// span > button:nth-child(1) {
+//   background-color: rgba(39, 79, 237, var(--bg-opacity));
+//   color: white;
+// }
 // span > button:nth-child(2):hover {
 //   background-color: rgba(39, 79, 237, var(--bg-opacity)) !important;
 //   color: #fff;
