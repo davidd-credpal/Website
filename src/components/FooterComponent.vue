@@ -10,9 +10,7 @@
               alt="credpal Inc"
             />
           </div>
-          <p
-            class="text-white text-left not-italic text-white text-opacity-50 text-sm leading-relaxed"
-          >
+          <p class="text-gray-500 text-left not-italic text-sm leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
             velit, varius in nisl aliquet, tincidunt tempor ex. Vestibulum non
             tristique dolor. Suspendisse ultrices accumsan fringilla. In massa
@@ -29,17 +27,17 @@
               credPal
             </h3>
           </div>
-          <ul class="xl:mx-20 xl:whitespace-no-wrap">
-            <li class="text-sm text-gray-200 mb-3">
+          <ul class="xl:mx-20 xl:whitespace-no-wrap text-gray-500 ">
+            <li class="text-sm mb-3">
               <a href="/about">About us</a>
             </li>
-            <li class="text-sm text-gray-200 mb-3">
+            <li class="text-sm mb-3">
               <a href="#">Button2</a>
             </li>
-            <li class="text-sm text-gray-200 mb-3">
+            <li class="text-sm mb-3">
               <a href="/pricing">Pricing</a>
             </li>
-            <li class="text-sm text-gray-200 mb-3">
+            <li class="text-sm mb-3">
               <a href="/blog">Blog</a>
             </li>
           </ul>
@@ -52,14 +50,14 @@
               legal
             </h3>
           </div>
-          <ul class="xl:mx-20 xl:whitespace-no-wrap">
-            <li class="text-sm text-gray-200 mb-3">
+          <ul class="xl:mx-20 xl:whitespace-no-wrap text-gray-500 ">
+            <li class="text-sm mb-3">
               <a href="/about">Term of Use</a>
             </li>
-            <li class="text-sm text-gray-200 mb-3">
+            <li class="text-sm mb-3">
               <a href="#">Privacy policy</a>
             </li>
-            <li class="text-sm text-gray-200 mb-3">
+            <li class="text-sm mb-3">
               <a href="/pricing">Disclaimer</a>
             </li>
           </ul>
@@ -74,7 +72,7 @@
           </div>
           <ul>
             <li
-              class="text-sm text-gray-200 mb-3 xl:mx-2 xl:whitespace-no-wrap"
+              class="text-sm text-gray-500  mb-3 xl:mx-2 xl:whitespace-no-wrap"
             >
               <a href="/faqs">FAQs</a>
             </li>
@@ -90,7 +88,7 @@
               Connect with us
             </h3>
           </div>
-          <ul class="xl:mx-6 xl:whitespace-no-wrap">
+          <ul class="xl:mx-6 xl:whitespace-no-wrap text-gray-500 ">
             <li class="text-sm text-gray-200 mb-3">
               <a href="/about">Term of Use</a>
             </li>
@@ -109,7 +107,7 @@
             </h3>
           </div>
           <small
-            class="mb-3 xl:mx-6 xl:whitespace-no-wrap text-sm not-italic font-light"
+            class="mb-3 xl:mx-6 xl:whitespace-no-wrap text-sm not-italic font-light text-gray-500 "
             >hello@credpal.com</small
           >
         </div>
@@ -118,10 +116,10 @@
         <div class="text-center py-8"></div>
         <div class="text-center py-0"></div>
       </div>
-      <div class="xl:py-10">
-        <div class="grid grid-cols-12">
+      <div class="xl:py-10 text-gray-500 ">
+        <div class="grid grid-cols-12 ">
           <div class="col-span-6">
-            <small class="xl:text-xs text-black"
+            <small class="xl:text-xs"
               >Copyright © 2020 • All Rights Reserved</small
             >
           </div>
@@ -147,7 +145,7 @@
                     /></svg
                 ></i>
 
-                <span class="text-black xl:text-xs font-light not-italic">
+                <span class="xl:text-xs font-light not-italic">
                   Back to Top
                 </span>
               </button>
@@ -177,7 +175,8 @@ export default {
 
 <style lang="scss" scoped>
 #footerTextColor {
-  color: #ffffff;
+  // color: #ffffff;
   background-color: black;
+  opacity: 0.9;
 }
 </style>

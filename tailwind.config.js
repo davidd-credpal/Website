@@ -4,10 +4,6 @@ module.exports = {
     inset: {
       "-2.5": "-2.5rem"
     },
-    
-    // backgroundColor: {
-    //   primary: "#274fed"
-    // },
     fontSize: {
       xs: ".75rem",
       xls: "0.8125rem",

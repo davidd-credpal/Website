@@ -1,5 +1,6 @@
 <template>
-  <div class="">
+  <div id="app">
+    <!--Business Navigation component -->
     <PersonalHeaderComponent />
     <section class="md:pt-20 container mx-auto">
       <!-- Two columns -->
@@ -527,6 +528,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#app {
+  font-family: "Axiforma", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eaf7ff;
+}
 sup {
   top: -1.4rem;
   font-size: 55%;
@@ -544,17 +551,6 @@ sup {
     top: -1rem;
   }
 }
-
-// span > button:nth-child(1) {
-//   background-color: rgba(39, 79, 237, var(--bg-opacity));
-//   color: white;
-// }
-// span > button:nth-child(2):hover {
-//   background-color: rgba(39, 79, 237, var(--bg-opacity)) !important;
-//   color: #fff;
-//   font-weight: 700;
-// }
-
 .bg-default {
   background-color: #eaf7ff;
 }

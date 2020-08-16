@@ -110,7 +110,7 @@
                   :to="{ name: 'Company' }"
                   >Company
                   <svg
-                    class="mx-1 inline-block"
+                    class="mb-1 inline-block"
                     width="11"
                     height="6"
                     viewBox="0 0 11 6"
@@ -129,7 +129,7 @@
                 </router-link>
               </span>
               <router-link
-                class=" block mt-4 lg:inline-block lg:mt-0 mr-8"
+                class=" block mt-4 lg:inline-block lg:mt-0 mr-8 xl:mr-16"
                 :to="{ name: 'Blog' }"
                 >Blog</router-link
               >
@@ -171,10 +171,7 @@ export default {
   opacity: 100%;
 
   a {
-    // font-weight: bold;
-    // color: #2c3e50;
     font-size: 13px;
-
     &.router-link-exact-active {
       font-weight: bold;
       color: #000000;
