@@ -2,11 +2,20 @@
   <div id="app">
     <!--Business Navigation component -->
     <BusinessHeaderComponent />
-    <section class="xl:pt-24 imageHeaderBackground w-full h-full">
-      <!-- <img src="../../public/images/header-bg-image.png" alt=""> -->
+    <section class="xl:pt-24 bg-white imageHeaderBackground w-full h-full">
       <div class="container mx-auto md:pt-2">
-        hi kaijdjeeiejekdnwdnwfionffm;lwnwm
+        <div class="flex items-center justify-between pt-6">
+          <div>
+            <h4>CredPal Business</h4>
+          </div>
+          <div class="">
+            <img src="images/user-dashboard-background.png" alt="" />
+          </div>
+        </div>
       </div>
+    </section>
+    <section class="container mx-auto pt-2">
+      <h2>Hi ejeleod</h2>
     </section>
   </div>
 </template>
@@ -16,8 +25,8 @@ import BusinessHeaderComponent from "@/components/BusinessHeaderComponent.vue";
 export default {
   name: "Business",
   components: {
-    BusinessHeaderComponent
-  }
+    BusinessHeaderComponent,
+  },
 };
 </script>
 

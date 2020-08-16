@@ -1,6 +1,6 @@
 <template>
   <header id="nav" class="flex items-center flex-wrap p-6 w-screen md:fixed">
-    <div class="container mx-auto lg:px-20">
+    <div class="container mx-auto lg:px-16">
       <div class="lg:flex py-2 md:py-0 justify-between items-center">
         <span class="flex justify-between ">
           <a href="/" class="self-center">

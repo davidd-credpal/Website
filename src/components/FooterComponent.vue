@@ -107,8 +107,9 @@
           </div>
           <small
             class="mb-3 xl:mx-6 xl:whitespace-no-wrap text-sm not-italic font-light text-gray-500 "
-            >hello@credpal.com</small
           >
+            <a href="mailto:hello@credpal.com">hello@credpal.com</a>
+          </small>
         </div>
       </div>
       <div class="divide-y divide-gray-400">
@@ -213,6 +214,6 @@ export default {
 <style lang="scss" scoped>
 #footerTextColor {
   background-color: black;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 </style>

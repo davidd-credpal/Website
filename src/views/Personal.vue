@@ -2,33 +2,39 @@
   <div id="app">
     <!--Business Navigation component -->
     <PersonalHeaderComponent />
-    <section class="md:pt-20 container mx-auto">
+    <section class="md:pt-20 container mx-auto px-0 xl:px-0">
       <!-- Two columns -->
-      <section class="py-8 px-6 md:py-10 md:px-0">
+      <section class="py-8 xl:py-4 px-6 md:py-6 md:px-0">
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-10"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2"
         >
-          <div class="mr-10 md:mr-0 md:py-8 mb-6 xl:pl-16 xl:pt-12">
-            <h1 class="md:text-6xl text-4xl font-black not-italic leading-snug">
-              CredPal <span>Card<sup>&trade;</sup></span>
-              <!-- <span class="font-normal md:text-6xl xl:text-5xl xl:font-medium">
-                <sup class="">&trade;</sup>
-              </span> -->
-              The modern Consumer Credit Card
+          <div class="mr-10 md:mr-0 md:py-8 mb-6 xl:pl-16 xl:pt-10">
+            <h1
+              class="md:text-6xl text-4xl font-black not-italic leading-tight"
+            >
+              CredPal <span>Card<sup>&trade;</sup></span> You Deserve Better
+              than your Bank Offers
             </h1>
             <p
-              class="text-base md:text-lg font-normal leading-normal text-justify mt-4 xl:mt-8"
+              class="text-sm md:text-lg font-normal leading-normal text-justify mt-0 xl:mt-2 pb-6"
             >
-              A card designed to help you meet your most important obligations
-              when you need to and never keeps you in debt.
+              A modern credit card designed to help you meet your most important
+              obligations when you need to and never keeps you in debt.
             </p>
+            <button
+              class="bg-transparent text-black text-xs font-bold  hover:font-semibold px-20 py-4  border border-black hover:border-black rounded-sm"
+              type="submit"
+            >
+             Apply for a CredPal card
+            </button>
+            <!-- <button>Apply for a CredPal card</button> -->
           </div>
-          <div class="mr-10 md:mr-0 mb-6 md:ml-10 py-12">
+          <div class="mr-10 md:mr-8 mb-6 md:ml-10 py-10">
             <div class=" hidden md:block">
               <!-- just a test -->
               <span class="flex items-center">
                 <svg
-                  class="mr-2"
+                  class="mr-6"
                   width="23"
                   height="23"
                   viewBox="0 0 23 23"
@@ -50,8 +56,8 @@
                 <div class="flex items-center ">
                   <p class="text-xs font-thin pr-1">Your card is not a loan</p>
                   &#8209;
-                  <p class="text-tiny font-medium pl-1">
-                    Never incure charges nor interest when not in use
+                  <p class="text-xs font-medium pl-1">
+                    never incure charges nor interest when not in use
                   </p>
                 </div>
               </span>
@@ -512,7 +518,7 @@ export default {
 
   components: {
     PersonalHeaderComponent,
-    FooterComponent
+    FooterComponent,
     // ButtonComponent,
   },
   data() {
@@ -520,10 +526,10 @@ export default {
       images: {
         name: "loan amount",
         src: "images/loan-amount.png",
-        alt: "loan amount"
-      }
+        alt: "loan amount",
+      },
     };
-  }
+  },
 };
 </script>
 
