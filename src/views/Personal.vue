@@ -8,7 +8,9 @@
         <div
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2"
         >
-          <div class="mr-10 md:mr-0 md:py-8 mb-6 xl:pl-16 xl:pt-10">
+          <div
+            class="mx-0 mr-10 md:mx-5 md:mr-0 md:py-8 mb-6 xl:mx-0 xl:pl-16 xl:pt-10"
+          >
             <h1
               class="md:text-6xl text-4xl font-black not-italic leading-tight"
             >
@@ -16,16 +18,16 @@
               than your Bank Offers
             </h1>
             <p
-              class="text-sm md:text-lg font-normal leading-normal text-justify mt-0 xl:mt-2 pb-6"
+              class="text-sm md:text-lg font-normal leading-normal text-justify mt-0 xl:mt-2 md:pb-6 md:py-0 py-6"
             >
               A modern credit card designed to help you meet your most important
               obligations when you need to and never keeps you in debt.
             </p>
             <button
-              class="bg-transparent text-black text-xs font-bold  hover:font-semibold px-20 py-4  border border-black hover:border-black rounded-sm"
+              class="bg-transparent text-black text-xs font-bold  hover:font-semibold px-10 md:px-20 py-4  border border-black hover:border-black rounded-sm"
               type="submit"
             >
-             Apply for a CredPal card
+              Apply for a CredPal card
             </button>
             <!-- <button>Apply for a CredPal card</button> -->
           </div>
@@ -518,7 +520,7 @@ export default {
 
   components: {
     PersonalHeaderComponent,
-    FooterComponent,
+    FooterComponent
     // ButtonComponent,
   },
   data() {
@@ -526,10 +528,10 @@ export default {
       images: {
         name: "loan amount",
         src: "images/loan-amount.png",
-        alt: "loan amount",
-      },
+        alt: "loan amount"
+      }
     };
-  },
+  }
 };
 </script>
 

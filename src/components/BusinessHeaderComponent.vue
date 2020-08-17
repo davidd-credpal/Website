@@ -1,6 +1,6 @@
 <template>
   <header id="nav" class="flex items-center flex-wrap p-6 w-screen md:fixed">
-    <div class="container mx-auto lg:px-16">
+    <div class="container mx-auto md:px-12 xl:px-16">
       <div class="lg:flex py-2 md:py-0 justify-between items-center">
         <span class="flex justify-between ">
           <a href="/" class="self-center">
@@ -179,11 +179,11 @@
 <script>
 import ButtonComponent from "@/components/ButtonComponent.vue";
 export default {
-  name: "PersonalHeaderComponent",
+  name: "BusinessHeaderComponent",
   props: ["buttonText"],
   components: {
-    ButtonComponent,
-  },
+    ButtonComponent
+  }
 };
 </script>
 
