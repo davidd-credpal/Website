@@ -27,7 +27,7 @@
               class="bg-transparent text-black text-xs font-bold  hover:font-semibold px-10 md:px-20 py-4  border border-black hover:border-black rounded-sm"
               type="submit"
             >
-              Apply for a CredPal card
+              Apply for a CredPal Card
             </button>
             <!-- <button>Apply for a CredPal card</button> -->
           </div>
@@ -521,7 +521,6 @@ export default {
   components: {
     PersonalHeaderComponent,
     FooterComponent
-    // ButtonComponent,
   },
   data() {
     return {

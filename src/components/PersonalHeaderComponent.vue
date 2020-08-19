@@ -104,30 +104,12 @@
                 :to="{ name: 'Pricing' }"
                 >Pricing</router-link
               >
-              <span>
-                <router-link
-                  class="block mt-4 lg:inline-block lg:mt-0 mr-8"
-                  :to="{ name: 'Company' }"
-                  >Company
-                  <svg
-                    class="mb-1 inline-block"
-                    width="11"
-                    height="6"
-                    viewBox="0 0 11 6"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      opacity="0.8"
-                      d="M1.52148 1L5.52148 5L9.52148 1"
-                      stroke="black"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </router-link>
-              </span>
+              <!-- Drop down component -->
+              <PersonalDropDownComponent
+                class="block lg:inline-block"
+                title="Company"
+                :items="Company"
+              />
               <router-link
                 class=" block mt-4 lg:inline-block lg:mt-0 mr-8 xl:mr-16"
                 :to="{ name: 'Blog' }"
@@ -154,16 +136,36 @@
 
 <script>
 import ButtonComponent from "@/components/ButtonComponent.vue";
+import PersonalDropDownComponent from "@/components/PersonalDropDownComponent.vue";
 export default {
   name: "PersonalHeaderComponent",
   props: ["buttonText"],
   components: {
-    ButtonComponent
+    ButtonComponent,
+    PersonalDropDownComponent
+  },
+  data() {
+    return {
+      Company: [
+        {
+          title: "Blog",
+          name: "Blog"
+        },
+        {
+          title: "FAQs",
+          name: "FAQs"
+        },
+        {
+          title: "Contact",
+          name: "Contact"
+        }
+      ]
+    };
   }
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 #nav {
   font-family: "Axiforma";
   padding: 15px;

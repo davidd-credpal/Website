@@ -439,11 +439,11 @@
       <div class="container mx-auto px-10 py-10 md:px-16 xl:py-20">
         <div class="text-black text-center">
           <h2
-            class=" not-italic font-black text-2xl md:text-6xl px-0 md:px-48 xl:py-4"
+            class="not-italic font-black text-2xl md:text-6xl px-0 md:px-48 xl:py-4"
           >
             Give your business the real visility edge
           </h2>
-          <p class=" not-italic font-light text-base md:text-2xl">
+          <p class="not-italic font-light text-base md:text-2xl">
             Get Started with CredPal Business
           </p>
           <!--Button component -->

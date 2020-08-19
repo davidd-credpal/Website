@@ -23,6 +23,5 @@ export default {
 <style lang="scss" scoped>
 button {
   background-color: rgba(39, 79, 237, var(--bg-opacity));
-  // color: white;
 }
 </style>
