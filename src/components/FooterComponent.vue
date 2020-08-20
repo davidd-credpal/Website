@@ -126,7 +126,10 @@
           <div class="col-span-6 text-right ">
             <div>
               <!-- Back to Top -->
-              <button class="focus:outline-none hover:text-white hover:font-semibold" @click="backToTopButton">
+              <button
+                class="focus:outline-none hover:text-white hover:font-semibold"
+                @click="backToTopButton"
+              >
                 <i
                   ><svg
                     class="mx-1 inline-block"

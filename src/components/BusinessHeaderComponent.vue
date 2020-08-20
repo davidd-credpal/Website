@@ -153,40 +153,44 @@ export default {
   components: {
     ButtonComponent,
     PersonalDropDownComponent,
-    BusinessDropDownComponent
+    BusinessDropDownComponent,
   },
   data() {
     return {
       Company: [
         {
           title: "Blog",
-          name: "Blog"
+          name: "Blog",
         },
         {
           title: "FAQs",
-          name: "FAQs"
+          name: "FAQs",
         },
         {
           title: "Contact",
-          name: "Contact"
-        }
+          name: "Contact",
+        },
       ],
       Industries: [
         {
           title: "Marketing Agencies",
-          name: "Marketing Agencies"
+          name: "Marketing Agencies",
+        },
+        {
+          title: "Features and Benefits",
+          name: "Features-and-Benefits",
         },
         {
           title: "FAQs",
-          name: "FAQs"
+          name: "FAQs",
         },
         {
           title: "Contact",
-          name: "Contact"
-        }
-      ]
+          name: "Contact",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 
