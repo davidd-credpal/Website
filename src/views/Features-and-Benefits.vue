@@ -227,7 +227,7 @@ export default {
   components: {
     BusinessHeaderComponent,
     ButtonComponent,
-    FooterComponent,
+    FooterComponent
   },
   data() {
     return {
@@ -237,38 +237,37 @@ export default {
           heading: "Quick onboarding",
           image: {
             src: "icons/quick-onboarding.svg",
-            alt: "Quick onboarding",
+            alt: "Quick onboarding"
           },
-          text: "Use your current bank and get going in a matter of minutes.",
+          text: "Use your current bank and get going in a matter of minutes."
         },
         {
           name: "Receipt matching",
           heading: "Receipt matching",
           image: {
             src: "icons/receipt-matching.svg",
-            alt: "Receipt matching",
+            alt: "Receipt matching"
           },
-          text: "Categorization and matching of receipts happen as you pay.",
+          text: "Categorization and matching of receipts happen as you pay."
         },
         {
           name: "Quick and free top-ups",
           heading: "Quick and free top-ups",
           image: {
             src: "icons/free-topups.svg",
-            alt: "Quick and free top-ups",
+            alt: "Quick and free top-ups"
           },
-          text:
-            "Load your CredPal wallet and CredPal cards fast, with no fees.",
+          text: "Load your CredPal wallet and CredPal cards fast, with no fees."
         },
         {
           name: "Payment cards for employees",
           heading: "Payment cards for employees",
           image: {
             src: "icons/payment-card-employees.svg",
-            alt: "Payment cards for employees",
+            alt: "Payment cards for employees"
           },
-          text: "Generate virtual or plastic CredPal cards for all employees.",
-        },
+          text: "Generate virtual or plastic CredPal cards for all employees."
+        }
       ],
       spendingSolutionFeaturesTwo: [
         {
@@ -276,41 +275,41 @@ export default {
           heading: "Spending limits and rights",
           image: {
             src: "icons/spending-limits.svg",
-            alt: "Spending limits and rights",
+            alt: "Spending limits and rights"
           },
-          text: "Define custom rights and limitations for each employee.",
+          text: "Define custom rights and limitations for each employee."
         },
         {
           name: "Real-time dashboard",
           heading: "Real-time dashboard",
           image: {
             src: "icons/realtime-dashboard.svg",
-            alt: "Real-time dashboard",
+            alt: "Real-time dashboard"
           },
-          text: "Stay on top of all company spending in real-time.",
+          text: "Stay on top of all company spending in real-time."
         },
         {
           name: "Fraud Detection",
           heading: "Fraud Detection",
           image: {
             src: "icons/fraud-detection.svg",
-            alt: "Fraud Detection",
+            alt: "Fraud Detection"
           },
-          text: "Detect suspicious purchases when they happen.",
+          text: "Detect suspicious purchases when they happen."
         },
         {
           name: "Accounting Software Integration",
           heading: "Accounting Software Integration",
           image: {
             src: "icons/software-integration.svg",
-            alt: "Accounting Software Integration",
+            alt: "Accounting Software Integration"
           },
           text:
-            "Avoid repetitive procedures, connect CredPal with your accounting software.",
-        },
-      ],
+            "Avoid repetitive procedures, connect CredPal with your accounting software."
+        }
+      ]
     };
-  },
+  }
 };
 </script>
 
