@@ -1,0 +1,13 @@
+<svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.04" x="0.980469" width="60" height="60" rx="8" fill="#274FED"/>
+<path d="M43.2305 23V37H44.7305V23H43.2305ZM41.9805 38.25H19.9805V39.75H41.9805V38.25ZM18.7305 37L18.7309 23L17.2309 22.9999L17.2305 36.9999L18.7305 37ZM19.9809 21.75L41.9805 21.75L41.9805 20.25L19.9809 20.25L19.9809 21.75ZM18.7309 23C18.731 22.3096 19.2906 21.75 19.9809 21.75L19.9809 20.25C18.4622 20.25 17.231 21.4812 17.2309 22.9999L18.7309 23ZM19.9805 38.25C19.2902 38.25 18.7305 37.6903 18.7305 37L17.2305 36.9999C17.2305 38.5187 18.4617 39.75 19.9805 39.75V38.25ZM43.2305 37C43.2305 37.6904 42.6708 38.25 41.9805 38.25V39.75C43.4993 39.75 44.7305 38.5188 44.7305 37H43.2305ZM44.7305 23C44.7305 21.4812 43.4993 20.25 41.9805 20.25L41.9805 21.75C42.6708 21.75 43.2305 22.3097 43.2305 23H44.7305Z" fill="#274FED"/>
+<circle cx="21.9805" cy="25" r="1" fill="#274FED"/>
+<circle opacity="0.7" cx="24.9805" cy="25" r="1" fill="#274FED"/>
+<circle opacity="0.5" cx="27.9805" cy="25" r="1" fill="#274FED"/>
+<line x1="21.7305" y1="29.25" x2="30.2305" y2="29.25" stroke="#274FED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line opacity="0.5" x1="37.7305" y1="29.25" x2="40.2305" y2="29.25" stroke="#274FED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line opacity="0.5" x1="37.7305" y1="32.25" x2="40.2305" y2="32.25" stroke="#274FED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line opacity="0.5" x1="38.7305" y1="35.25" x2="40.2305" y2="35.25" stroke="#274FED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="21.7305" y1="32.25" x2="33.2305" y2="32.25" stroke="#274FED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="21.7305" y1="35.25" x2="25.2305" y2="35.25" stroke="#274FED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

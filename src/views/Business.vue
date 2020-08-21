@@ -121,7 +121,7 @@
               Easily manage everyday complicated and burdensome expenses, such
               as cash disbursements, petty cash, and account reconciliation.
             </p>
-            <p class="py-3  not-italic font-light text-sm">
+            <p class="py-3 not-italic font-light text-sm">
               Instantly issue corporate Credit Card for extra liquidity and
               quick credit for everyday expenses such as travels, invoice
               settlement, petty cash, etc.
@@ -147,15 +147,15 @@
             <h2 class="not-italic font-black text-2xl md:text-4xl pb-6">
               Continuous Business Credit Float for Expenses
             </h2>
-            <p class="py-3  not-italic font-light text-sm">
+            <p class="py-3 not-italic font-light text-sm">
               ***Enable faster purchasing and give every employee access to the
               funds they need in a safe and secure manner.
             </p>
-            <p class="py-3  not-italic font-light text-sm">
+            <p class="py-3 not-italic font-light text-sm">
               Easily manage everyday complicated and burdensome expenses, such
               as cash disbursements, petty cash, and account reconciliation.
             </p>
-            <p class="py-3  not-italic font-light text-sm">
+            <p class="py-3 not-italic font-light text-sm">
               Instantly issue corporate Credit Card for extra liquidity and
               quick credit for everyday expenses such as travels, invoice
               settlement, petty cash, etc.
