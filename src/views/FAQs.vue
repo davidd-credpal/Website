@@ -37,8 +37,9 @@
           <aside class="w-full md:w-3/12 px-2">
             <h4 class="text-xl font-bold ">Categories</h4>
             <ul class="capitalize py-8">
-              <li
-                class="flex items-center py-2 font-thin hover:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+              <a
+                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+                href="#"
               >
                 <img
                   class="mr-3 pb-1 items-center"
@@ -47,9 +48,10 @@
                   alt="faqs-line"
                 />
                 <h5 class="my-1">All Questions</h5>
-              </li>
-              <li
-                class="flex items-center py-2 font-thin hover:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+              </a>
+              <a
+                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+                href="#"
               >
                 <img
                   class="mr-3 pb-1 items-center"
@@ -58,9 +60,10 @@
                 />
 
                 Personal Credit Card
-              </li>
-              <li
+              </a>
+              <a
                 class="flex items-center py-2 font-thin hover:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+                href="#"
               >
                 <img
                   class="mr-3 pb-1 items-center"
@@ -69,13 +72,13 @@
                 />
 
                 Corporate Expense Card
-              </li>
+              </a>
             </ul>
           </aside>
           <!-- FAQs Section -->
           <div class="w-full px-20">
             <div class="faqs_item">
-              <div class="flex items-center justify-between flex-row p-6">
+              <div class="flex items-center justify-between flex-row p-8">
                 <h2 class="pr-40 text-xl font-bold text-black">
                   What is CredPal privacy Policy?
                 </h2>
@@ -94,7 +97,7 @@
                   +
                 </button>
               </div>
-              <div class="pt-4 pb-8 pl-8 pr-8" v-show="!isOpen">
+              <div class="pt-0 pb-8 pl-8 pr-8" v-show="!isOpen">
                 <p class="font-thin text-base">
                   Account statements are required to validate customer and also
                   compute a safe credit limistat em entser and also compute a
@@ -107,7 +110,7 @@
               </div>
             </div>
             <div class="faqs_item my-10">
-              <div class="flex items-center justify-between flex-row p-6">
+              <div class="flex items-center justify-between flex-row p-8">
                 <h2 class="pr-40 text-xl font-bold text-black">
                   What is CredPal privacy Policy?
                 </h2>
@@ -126,7 +129,7 @@
                   +
                 </button>
               </div>
-              <div class="pt-4 pb-8 pl-8 pr-8" v-show="!isOpen">
+              <div class="pt-0 pb-8 pl-8 pr-8" v-show="!isOpen">
                 <p class="font-thin text-base">
                   Account statements are required to validate customer and also
                   compute a safe credit limistat em entser and also compute a
@@ -140,6 +143,24 @@
             </div>
           </div>
         </div>
+        <!-- divider -->
+        <div class="divide divide-y">
+          <div class="py-2"></div>
+          <div class="py-2"></div>
+        </div>
+        <div class="container mx-auto px-10 py-10 md:px-16 xl:py-20">
+          <div class="text-black text-center">
+            <h2
+              class="not-italic font-black text-2xl md:text-5xl px-0 md:px-48 xl:py-2"
+            >
+              Would you need any further help?
+            </h2>
+            <!--Button component -->
+            <div class="py-6">
+              <ButtonComponent :buttonText="buttonText" class="py-6 px-16" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Footer Component -->
@@ -150,16 +171,20 @@
 <script>
 import BusinessHeaderComponent from "@/components/BusinessHeaderComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
+import ButtonComponent from "@/components/ButtonComponent.vue";
 export default {
   name: "FAQs",
+  // props: ["Contact Support"],
   components: {
     BusinessHeaderComponent,
     FooterComponent,
+    ButtonComponent
   },
   data() {
     return {
       isOpen: false,
       showImage: true,
+      buttonText: "Contact Support"
     };
   },
   methods: {
@@ -168,8 +193,8 @@ export default {
     },
     closeItem() {
       this.isOpen = false;
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -192,6 +217,9 @@ export default {
   background: #ffffff;
   box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.04);
   border-radius: 8px;
+}
+.faqs_item p {
+  color: #555555;
 }
 .faqs_section {
   background: #fcfcfc;
