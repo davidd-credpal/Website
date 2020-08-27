@@ -77,70 +77,8 @@
           </aside>
           <!-- FAQs Section -->
           <div class="w-full px-20">
-            <div class="faqs_item">
-              <div class="flex items-center justify-between flex-row p-8">
-                <h2 class="pr-40 text-xl font-bold text-black">
-                  What is CredPal privacy Policy?
-                </h2>
-                <button
-                  class="px-2 py-1 outline-none focus:outline-none text-3xl text-gray-900 hover:text-black"
-                  v-show="!isOpen"
-                  @click="openItem"
-                >
-                  -
-                </button>
-                <button
-                  class="px-2 py-1 outline-none focus:outline-none text-3xl text-gray-900 hover:text-black"
-                  v-show="isOpen"
-                  @click="closeItem"
-                >
-                  +
-                </button>
-              </div>
-              <div class="pt-0 pb-8 pl-8 pr-8" v-show="!isOpen">
-                <p class="font-thin text-base">
-                  Account statements are required to validate customer and also
-                  compute a safe credit limistat em entser and also compute a
-                  safe credit limit. Statements are required to validate
-                  customer and also compute a safe credit unt statements are rto
-                  validate customer and also comit. Uint statements are required
-                  to validate customer and also compute a safe credit limit
-                  here.
-                </p>
-              </div>
-            </div>
-            <div class="faqs_item my-10">
-              <div class="flex items-center justify-between flex-row p-8">
-                <h2 class="pr-40 text-xl font-bold text-black">
-                  What is CredPal privacy Policy?
-                </h2>
-                <button
-                  class="px-2 py-1 outline-none focus:outline-none text-3xl text-gray-900 hover:text-black"
-                  v-show="!isOpen"
-                  @click="openItem"
-                >
-                  -
-                </button>
-                <button
-                  class="px-2 py-1 outline-none focus:outline-none text-3xl text-gray-900 hover:text-black"
-                  v-show="isOpen"
-                  @click="closeItem"
-                >
-                  +
-                </button>
-              </div>
-              <div class="pt-0 pb-8 pl-8 pr-8" v-show="!isOpen">
-                <p class="font-thin text-base">
-                  Account statements are required to validate customer and also
-                  compute a safe credit limistat em entser and also compute a
-                  safe credit limit. Statements are required to validate
-                  customer and also compute a safe credit unt statements are rto
-                  validate customer and also comit. Uint statements are required
-                  to validate customer and also compute a safe credit limit
-                  here.
-                </p>
-              </div>
-            </div>
+            <!-- FAQs component -->
+            <FAQsComponent class="my-10" />
           </div>
         </div>
         <!-- divider -->
@@ -148,7 +86,7 @@
           <div class="py-2"></div>
           <div class="py-2"></div>
         </div>
-        <div class="container mx-auto px-10 py-10 md:px-16 xl:py-20">
+        <div class="container mx-auto px-10 py-10 md:px-16 xl:py-10">
           <div class="text-black text-center">
             <h2
               class="not-italic font-black text-2xl md:text-5xl px-0 md:px-48 xl:py-2"
@@ -172,13 +110,15 @@
 import BusinessHeaderComponent from "@/components/BusinessHeaderComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
 import ButtonComponent from "@/components/ButtonComponent.vue";
+import FAQsComponent from "@/components/FAQsComponent.vue";
 export default {
   name: "FAQs",
   // props: ["Contact Support"],
   components: {
     BusinessHeaderComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    FAQsComponent
   },
   data() {
     return {

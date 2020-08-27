@@ -124,7 +124,7 @@
                 class="block mt-5 lg:inline-block lg:mt-0 md:mr-8"
                 :to="{ name: 'CreateAccount' }"
               >
-                <ButtonComponent />
+                <ButtonComponent :buttonText="buttonText" />
               </router-link>
             </div>
           </div>
@@ -139,7 +139,7 @@ import ButtonComponent from "@/components/ButtonComponent.vue";
 import PersonalDropDownComponent from "@/components/PersonalDropDownComponent.vue";
 export default {
   name: "PersonalHeaderComponent",
-  props: ["buttonText"],
+  props: [],
   components: {
     ButtonComponent,
     PersonalDropDownComponent
@@ -159,7 +159,8 @@ export default {
           title: "Contact",
           name: "Contact"
         }
-      ]
+      ], 
+      buttonText: "Get Started"
     };
   }
 };

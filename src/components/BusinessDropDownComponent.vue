@@ -20,15 +20,15 @@
     </svg>
     <transition name="fade" appear>
       <div class="py-4 sub-menu-industries bg-white  shadow" v-show="isOpen">
-        <div
+        <ul
           v-for="(item, i) in items"
           :key="i"
-          class="px-6 py-2 hover:font-semibold hover:bg-gray-300"
+          class="px-6 py-2 hover:font-medium hover:bg-gray-300 cursor-pointer"
         >
           <router-link :to="{ name: item.name }">
             {{ item.title }}
           </router-link>
-        </div>
+        </ul>
       </div>
     </transition>
   </span>
@@ -68,7 +68,7 @@ a {
 }
 
 span {
-  font-size: 13px;
+  font-size: 12px;
 }
 .sub-menu-industries {
   position: absolute;
