@@ -36,43 +36,48 @@
         <div class="flex flex-row">
           <aside class="w-full md:w-3/12 px-2">
             <h4 class="text-xl font-bold ">Categories</h4>
-            <ul class="capitalize py-8">
-              <a
-                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
-                href="#"
+            <ul class="capitalize py-8" @click="iconToggle">
+              <button
+                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer focus:outline-none"
+                href=""
               >
                 <img
                   class="mr-3 pb-1 items-center"
-                  :class="showImage == true ? 'hover:invisible' : 'hidden'"
                   src="../../public/icons/faqs-line.svg"
                   alt="faqs-line"
+                  v-show="showImage"
+                  :class="{ hidden: iconHide }"
                 />
                 <h5 class="my-1">All Questions</h5>
-              </a>
-              <a
-                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+              </button>
+              <button
+                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer focus:outline-none"
                 href="#"
               >
                 <img
                   class="mr-3 pb-1 items-center"
                   src="../../public/icons/faqs-line.svg"
                   alt="faqs-line"
+                  v-show="showImage"
+                  :class="{ hidden: !iconHide }"
                 />
 
                 Personal Credit Card
-              </a>
-              <a
-                class="flex items-center py-2 font-thin hover:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer"
+              </button>
+              <button
+                class="flex items-center py-2 font-thin active:font-bold text-gray-600 hover:text-black hover:text-bold cursor-pointer focus:outline-none"
                 href="#"
               >
                 <img
                   class="mr-3 pb-1 items-center"
                   src="../../public/icons/faqs-line.svg"
                   alt="faqs-line"
+                  v-show="!showImage"
+                  :class="{ hidden: !iconHide }"
                 />
 
                 Corporate Expense Card
-              </a>
+              </button>
             </ul>
           </aside>
           <!-- FAQs Section -->
@@ -122,17 +127,14 @@ export default {
   },
   data() {
     return {
-      isOpen: false,
-      showImage: true,
+      iconHide: false,
+      showImage: false,
       buttonText: "Contact Support"
     };
   },
   methods: {
-    openItem() {
-      this.isOpen = true;
-    },
-    closeItem() {
-      this.isOpen = false;
+    iconToggle() {
+      this.showImage = !this.showImage;
     }
   }
 };
