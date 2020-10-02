@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install me
 ```
 
 ### Compiles and hot-reloads for development
@@ -17,7 +17,7 @@ npm run build
 
 ### Lints and fixes files
 ```
-npm run lint
+npm run lint and fix
 ```
 
 ### Customize configuration
